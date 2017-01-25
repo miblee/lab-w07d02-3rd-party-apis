@@ -1,0 +1,24 @@
+{
+  "name": "lab-w07d02-3rd-party-apis",
+  "version": "1.0.0",
+  "description": "Just as the browser can act as a client and make requests to the server, our server can act as a client and make requests.",
+  "main": "./lib/test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miblee/lab-w07d02-3rd-party-apis.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miblee/lab-w07d02-3rd-party-apis/issues"
+  },
+  "homepage": "https://github.com/miblee/lab-w07d02-3rd-party-apis#readme",
+  "dependencies": {
+    "morgan": "^1.7.0",
+    "request": "^2.79.0"
+  }
+}
