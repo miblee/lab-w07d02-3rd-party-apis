@@ -12,9 +12,9 @@ $('#userBtn').on('click', function(evt) {
   $.ajax({
     url: '/randomuser',
     method: 'GET',
-    success: function(blah){
-      console.log('hey, res= ', blah)
-      var htmlOutput = wordCompiler({ user: data });
+    success: function(data){
+      console.log('hey, res= ', data)
+      var htmlOutput = userCompiler({ user: data });
       $('#randomuser').html(htmlOutput);
     },
     error: function (err){
