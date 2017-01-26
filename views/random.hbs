@@ -1,0 +1,32 @@
+
+
+<div class="buttons">
+  <button class="btn btn-primary" id="userBtn">User</button>
+  <button class="btn btn-primary" id="wordBtn">Word</button>
+</div>
+
+<div class="row">
+  <div class="col-xs-6">
+    <h1>random user</h1>
+    <div id="randomuser">
+      <p>random user kjansd;kfjas;dlfkj</p>
+    </div>
+  </div>
+  <div class="col-xs-6">
+    <h1>random word</h1>
+    <div id="randomword">
+      <p>random word ;lkajsd;fkjasdf</p>
+    </div>
+  </div>
+</div>
+
+{{!-- handlebars require '\' on front end --}}
+<template id="usertemplate">
+  <strong>\{{user}}</strong>
+</template>
+
+<template id="wordtemplate">
+  <strong>\{{word}}</strong>
+</template>
+
+
